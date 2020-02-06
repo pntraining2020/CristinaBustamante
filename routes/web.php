@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route:: get('/clock','ClockController@employee');
+Route:: post('/clock','ClockController@store');
+
